@@ -22,8 +22,6 @@ final class ExtendedChannelExtension extends AbstractTypeExtension
 				'constraints' => [
 					new Email([
 						'groups' => ['sylius'],
-						'checkHost' => true,
-						'checkMX' => true,
 					]),
 				],
 			])
